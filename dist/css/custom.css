@@ -2,6 +2,19 @@ body > div.wrapper > div.content-wrapper > section > div > div:nth-child(2) > se
   display: none;
 }
 
+body > div.wrapper > aside.main-sidebar.sidebar-dark-primary.elevation-4 > div {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
 .user-panel img {
   height: auto;
   border-radius: unset;
