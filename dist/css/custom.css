@@ -1,0 +1,113 @@
+body > div.wrapper > div.content-wrapper > section > div > div:nth-child(2) > section:nth-child(1) > div.card.bg-gradient-primary {
+  display: none;
+}
+
+.user-panel img {
+  height: auto;
+  border-radius: unset;
+  width: 8vw;
+  height: auto;
+}
+
+.content .container-fluid .card-body #pieChart {
+  height: 223px !important;
+  min-height: 223px !important;
+  max-height: 223px !important;
+}
+
+.content .container-fluid .card-body.table-responsive table {
+  min-width: 785px;
+}
+
+#example1_wrapper > div:nth-child(1) > div:nth-child(1) > div > button {
+  background: red;
+}
+
+.btn-secondary {
+  background: red;
+}
+
+.custom-card-header::after {
+  display: none;
+}
+
+.custom-card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.custom-card-header .mobile {
+  display: none;
+}
+
+.custom-card-header .find-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.custom-card-header .find-box .form-control {
+  width: 160px;
+}
+
+@media screen and (max-width: 450px) {
+  .custom-card-header .find-box .form-control {
+    width: 120px;
+  }
+  .custom-card-header .mobile {
+    display: unset;
+  }
+  .custom-card-header .desktop {
+    display: none;
+  }
+  .custom-card-header .mobile.btn-primary {
+    width: 40px;
+    height: 40px;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+  }
+  .custom-card-header .mobile.btn-primary svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .user-panel img {
+    height: auto;
+    border-radius: unset;
+    width: 12vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .user-panel img {
+    height: auto;
+    border-radius: unset;
+    width: 15vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .user-panel img {
+    height: auto;
+    border-radius: unset;
+    width: 90px;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=custom.css.map */
