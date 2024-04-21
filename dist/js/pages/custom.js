@@ -28,6 +28,8 @@ $(window).on('resize', function() {
 
 window.onload = function() {
     if(window.innerWidth <= 992 && window.innerWidth >= 785) {
+
+      $('.dataformku').addClass('col-md-12').removeClass('col-md-6');
       console.log("Helo");
       $('.sidebar-mini.layout-fixed').addClass('sidebar-open');
       let isclick = false; 
