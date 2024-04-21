@@ -4,7 +4,44 @@ body > div.wrapper > div.content-wrapper > section > div > div:nth-child(2) > se
 body > div.wrapper > aside.main-sidebar.sidebar-dark-primary.elevation-4 > div {
     display: flex !important;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-start !important;
+    justify-content:  flex-start !important;
+}
+
+body > div > aside.main-sidebar.sidebar-dark-primary.elevation-4.closedbang {
+    left: -100%;
+}
+
+body > div.wrapper > nav.active,
+body > div.wrapper > div.content-wrapper.active  {
+    margin-left: 0 !important; 
+}
+
+body > div.wrapper > aside.main-sidebar.sidebar-dark-primary.elevation-4.active {
+    left: -100%;
+}
+
+
+
+@media screen and (max-width: 991.98px) and (min-width: 785px)   {
+    body > div > div.content-wrapper,
+    body > div > nav {
+        margin-left:250px !important;
+    }
+
+    #sidebar-overlay {
+        display:none; 
+    }
+    .sidebar-open #sidebar-overlay {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 785px) {
+    body > div > div.content-wrapper,
+    body > div > nav {
+        margin-left:0 !important;
+    }
 }
 
 
@@ -135,7 +172,7 @@ body > div.wrapper > aside.main-sidebar.sidebar-dark-primary.elevation-4 > div {
         img {
             height: auto;
             border-radius: unset;
-            width: 12vw;
+            width: 9vw;
             height: auto;
         }
     }

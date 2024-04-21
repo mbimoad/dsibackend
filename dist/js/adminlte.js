@@ -2138,9 +2138,9 @@
 
     PushMenu._jQueryInterface.call($__default["default"](button), 'toggle');
   });
-  $__default["default"](window).on('load', function () {
-    PushMenu._jQueryInterface.call($__default["default"](SELECTOR_TOGGLE_BUTTON$1));
-  });
+  // $__default["default"](window).on('load', function () {
+  //   PushMenu._jQueryInterface.call($__default["default"](SELECTOR_TOGGLE_BUTTON$1));
+  // });
   /**
    * jQuery API
    * ====================================================

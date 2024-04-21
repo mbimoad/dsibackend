@@ -452,7 +452,7 @@ body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) {
     }
 
     @include media-breakpoint-down(md) {
-      margin-left: 0;
+      // margin-left: 0;
     }
   }
 }
@@ -474,7 +474,7 @@ body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) {
       margin-left: $sidebar-mini-width;
     }
     @include media-breakpoint-down(sm) {
-      margin-left: 0;
+      // margin-left: 0;
     }
   }
 }
